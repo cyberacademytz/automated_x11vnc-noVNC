@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ==============================================================
-# CYBER-STYLE COLORS - CODED BY cmd@hacker - www.tca.ac.tz
+# CYBER-STYLE COLORS - CODED BY- www.tca.ac.tz
 # ==============================================================
 RED="\e[31m"
 GREEN="\e[32m"
@@ -13,7 +13,7 @@ RESET="\e[0m"
 BOLD="\e[1m"
 
 # ==============================================================
-# CYBER BANNER FUNCTION - CODED BY cmd@hacker - www.tca.ac.tz
+# CYBER BANNER FUNCTION - CODED BY - www.tca.ac.tz
 # ==============================================================
 banner() {
 clear
@@ -34,7 +34,7 @@ echo ""
 }
 
 # ==============================================================
-# CHECK INSTALLATION - CODED BY cmd@hacker - www.tca.ac.tz
+# CHECK INSTALLATION - CODED BY - www.tca.ac.tz
 # ==============================================================
 is_installed() {
     command -v x11vnc >/dev/null 2>&1 &&
@@ -43,7 +43,7 @@ is_installed() {
 }
 
 # ==============================================================
-# INSTALL TOOLS - CODED BY cmd@hacker - www.tca.ac.tz
+# INSTALL TOOLS - CODED BY - www.tca.ac.tz
 # ==============================================================
 install_tools() {
     banner
@@ -63,7 +63,7 @@ install_tools() {
 }
 
 # ==============================================================
-# STOP SERVICES - CODED BY cmd@hacker - www.tca.ac.tz
+# STOP SERVICES - CODED BY - www.tca.ac.tz
 # ==============================================================
 stop_vnc() {
     banner
@@ -77,7 +77,7 @@ stop_vnc() {
 }
 
 # ==============================================================
-# STATUS CHECK - CODED BY cmd@hacker - www.tca.ac.tz
+# STATUS CHECK - CODED BY - www.tca.ac.tz
 # ==============================================================
 status_vnc() {
     banner
@@ -103,7 +103,7 @@ status_vnc() {
 }
 
 # ==============================================================
-# START VNC SYSTEM - CODED BY cmd@hacker - www.tca.ac.tz
+# START VNC SYSTEM - CODED BY - www.tca.ac.tz
 # ==============================================================
 start_vnc() {
     banner
@@ -208,7 +208,7 @@ start_vnc() {
 }
 
 # ==============================================================
-# UNINSTALL - CODED BY cmd@hacker - www.tca.ac.tz
+# UNINSTALL - CODED BY - www.tca.ac.tz
 # ==============================================================
 uninstall_tools() {
     banner
@@ -229,7 +229,7 @@ uninstall_tools() {
 }
 
 # ==============================================================
-# MENU - CODED BY cmd@hacker - www.tca.ac.tz
+# MENU - CODED BY - www.tca.ac.tz
 # ==============================================================
 while true; do
     banner
